@@ -33,3 +33,28 @@ const myFunction = function(){
 }
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ******************** memory ***********************
+
+// stack (primitive), heap (non-primitive)
+
+let myinstaidname = "roushan.official_"
+
+let anothername = myinstaidname
+anothername = "bobby.official_"
+
+console.log(myinstaidname);
+console.log(anothername);
+
+let userOne = {
+    email: "user54r7@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "roushan5478@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
